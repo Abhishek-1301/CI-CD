@@ -1,3 +1,3 @@
-FROM httpd:latest
+FROM docker.io/library/httpd:latest
 COPY index.html /usr/local/apache2/htdocs/
 EXPOSE 80
